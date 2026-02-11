@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-02-10 20:11:14 by Eclipse SUMO netedit Version 1.23.1
+<!-- generated on 2026-02-11 22:57:49 by Eclipse SUMO netedit Version 1.23.1
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="E:\prjectsumo\demand/mySimulation.sumocfg"/>
-        <route-files value="E:\prjectsumo\demand/demand.rou.xml,E:\prjectsumo\microbus.rou.xml"/>
-        <sumo-net-file value="E:\prjectsumo\maadii.net.xml"/>
+        <sumocfg-file value="E:\sumo_final_project\demand/mySimulation.sumocfg"/>
+        <route-files value="E:\sumo_final_project\demand/demand.rou.xml,E:\sumo_final_project\demand\microbus.rou.xml"/>
+        <sumo-net-file value="E:\sumo_final_project\maadii.net.xml"/>
     </input>
 
     <processing>
@@ -32,9 +32,11 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <tlLogic id="2293609472" type="static" programID="0" offset="0">
-        <phase duration="80" state="GGGG"/>
-        <phase duration="5"  state="yyyy"/>
-        <phase duration="5"  state="rrrr"/>
+    <tlLogic id="cluster3209064567_6107305927_7053682374_7053682375" type="static" programID="0" offset="0">
+        <phase duration="30" state="rrrrGGGgrrrr"/>
+        <phase duration="10" state="yyyyyyyyyyyr"/>
+        <phase duration="30" state="rrrrrrrrGGGr"/>
+        <phase duration="10" state="yyyyyyyyyyyr"/>
+        <phase duration="30" state="Ggggrrrrrrrr"/>
     </tlLogic>
 </additional>
