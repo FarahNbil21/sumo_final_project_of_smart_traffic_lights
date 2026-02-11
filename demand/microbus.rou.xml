@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-02-10 19:45:03 by Eclipse SUMO netedit Version 1.23.1
+<!-- generated on 2026-02-11 16:57:31 by Eclipse SUMO netedit Version 1.23.1
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- VTypes -->
-    <vType id="DEFAULT_TAXITYPE" vClass="hov" emissionClass="HBEFA4/UBus_Std_gt15-18t_Euro-VI_A-C" guiShape="bus/coach" width="2.50" height="3.40" color="white" latAlignment="right" laneChangeModel="LC2013" lcStrategic="10.00" lcCooperative="0.00" lcKeepRight="10.00" lcAssertive="5.00" lcImpatience="0.5"/>
+    <vType id="ttype_0" minGap="0.50" maxSpeed="60.00" speedFactor="normc(1.00,0.10,0.20,2.00)" actionStepLength="1.00" vClass="hov" emissionClass="HBEFA4/PC_petrol_Euro-4" guiShape="bus/coach" width="1.80" height="1.50" color="white" personCapacity="14" boardingDuration="5.00" latAlignment="arbitrary" minGapLat="0.10" laneChangeModel="LC2013" lcStrategic="1.00" lcCooperative="0.00" lcSpeedGain="9.00" lcKeepRight="10.00" lcPushy="1.00" lcAssertive="20.00" lcImpatience="1.0" lcOvertakeRight="1" jmDriveAfterYellowTime="0.3" jmDriveAfterRedTime="0.2" jmIgnoreKeepClearTime="-1" sigma="0.70" trainType="NGT400" tauLast="0.00" apProb="0.00" adaptFactor="0.00" adaptTime="0.00"/>
     <!-- Routes -->
     <route id="microbus_0" edges="25998029#0 25998029#1 25998029#2 25998029#3 25997853#3 25997853#4 25997853#5 25997853#6 701279116#0 701279116#1 701279116#2 701279116#3 701279116#4 701279116#5 701279116#6 701279116#7 701279116#8 701279116#9 701279116#10 701279116#11 701279116#12 701279116#13 701279116#14 701279116#15 701279116#16 28269864#0 28269864#1 28269864#2 28269864#3 28269864#4 326602520#1 326602520#2 326602520#3 326602520#4 326602520#5 326602520#6 326602520#7 326602520#8 326602520#9 326602520#10 326602520#11 326602520#12 326602520#13 326602520#14 326602520#15 326602520#16 326602520#17" color="white"/>
+    <route id="microbus_1" edges="25998029#0 25998029#1 25998029#2 25998029#3 25997853#3 25997853#4 25997853#5 25997853#6 25997853#7 25997853#8 282641894#0 282641894#1 282641894#2 282641894#3 282641894#4 282641894#5 282641894#6 282641894#7 282641894#8 282641894#9 282641894#10" color="240,248,255"/>
     <route id="testmicrobus" edges="25998639#0 25998639#1 25998639#2 282942001#0 -282941995#1" color="white"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <flow id="f_24testmicro" begin="00:00:00" route="testmicrobus" end="01:00:00" vehsPerHour="1800"/>
-    <flow id="f_microbu_0" begin="00:00:00" color="white" route="microbus_0" end="01:00:00" vehsPerHour="1800"/>
+    <flow id="f_24" type="ttype_0" begin="0.00" departLane="random" color="240,248,255" route="microbus_1" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_24testmicro" begin="0.00" route="testmicrobus" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_microbu_0" type="ttype_0" begin="0.00" departLane="random" color="white" route="microbus_0" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_microbus_1" type="ttype_0" begin="0.00" departPos="random" color="240,248,255" route="microbus_1" end="3600.00" vehsPerHour="1800"/>
 </routes>
