@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-02-14 23:33:03 by Eclipse SUMO netedit Version 1.23.1
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <inductionLoop id="e1_0" lane="25998029#3_1" pos="20.02" period="30.00" name="before elhoriya square" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_1" lane="25998029#3_0" pos="20.56" period="30.00" name="before elhoriya square" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+</additional>
