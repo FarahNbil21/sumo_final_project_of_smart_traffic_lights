@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-02-12 12:02:21 by Eclipse SUMO netedit Version 1.23.1
+<!-- generated on 2026-02-14 23:20:30 by Eclipse SUMO netedit Version 1.23.1
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
@@ -23,26 +23,25 @@
     <route id="r_8" edges="77565499#0 77565499#1 77565499#2 77565499#3 77565499#4 77565499#5 77565499#6 77565499#7 77565499#8 25997853#1 25997853#2 25997853#3 25997853#4 25997853#5 25997853#6 701279116#0 701279116#1 701279116#2 701279116#3 701279116#4 701279116#5 701279116#6 701279116#7 701279116#8 701279116#9 701279116#10 701279116#11 701279116#12 701279116#13 701279116#14 701279116#15 701279116#16 28269864#0 28269864#1 28269864#2 28269864#3 28269864#4 28269864#6 651227563#0 651227563#1 651227563#2 651227563#3 651227563#4 651227563#5 651227563#6 651227563#7 702368230 1386945453#0 1386945453#1 1386945453#2 1386945454#0 1386945454#1 1386945454#2 1386945454#3 1386945454#4 1386945454#5 1386945454#6 1386945454#7 1386945454#8 1386945454#9" color="255,99,71"/>
     <route id="r_9" edges="702491675#11 702491675#12 701279112#0 701279112#1 701279112#2 701279112#3 701279112#4 36441529#0 36441529#1 36441529#2 83597747#3 83597747#4 83597747#5 701279118#0 701279118#1 701279118#2 701279118#3 701558941#0 701558941#1 701558941#2 701558941#3 701558941#4 701558941#5 701558941#6 701558941#7 701558941#8 701558941#9 701558941#10 701558941#11 701558941#12 701558941#13 1050964373#3 1050964373#4 1050964373#5 688921407#0 688921407#1 688921407#2 688921407#3 688921407#4 688921407#5 1050745827 1050745823#0 1050745823#1 1050745823#2" color="216,191,216"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <flow id="f_0" begin="0.00" departLane="random" route="r_0" end="3600.00" vehsPerHour="1800"/>
-    <flow id="f_1" begin="0.00" departLane="random" route="r_0" end="3600.00" vehsPerHour="1800"/>
-    <flow id="f_10" begin="0.00" departLane="random" color="154,205,50" route="r_7" end="3600.00" vehsPerHour="1800"/>
-    <flow id="f_11" begin="0.00" departLane="random" color="255,99,71" route="r_8" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_0" begin="0.00" departLane="random" route="r_0" end="3600.00" probability="0.10000000000000000555"/>
+    <flow id="f_1" begin="0.00" departLane="random" route="r_0" end="3600.00" probability="0.2000000000000000111"/>
+    <flow id="f_10" begin="0.00" departLane="random" color="154,205,50" route="r_7" end="3600.00" probability="0.01000000000000000021"/>
+    <flow id="f_11" begin="0.00" departLane="random" color="255,99,71" route="r_8" end="3600.00" probability="0.10000000000000000555"/>
     <flow id="f_12" begin="0.00" departLane="random" color="216,191,216" route="r_9" end="3600.00" vehsPerHour="1800"/>
     <flow id="f_13" begin="0.00" departLane="random" color="216,191,216" route="r_9" end="3600.00" vehsPerHour="1800"/>
     <flow id="f_14" begin="0.00" departLane="random" color="156,102,31" route="r_10" end="3600.00" vehsPerHour="1800"/>
     <flow id="f_15" begin="0.00" departLane="random" color="255,20,147" route="r_10" end="3600.00" vehsPerHour="1800"/>
     <flow id="f_16" begin="0.00" departLane="random" color="255,20,147" route="r_2" end="3600.00" vehsPerHour="1800"/>
     <flow id="f_17" begin="0.00" departLane="random" color="255,20,147" route="r_11" end="3600.00" vehsPerHour="1800"/>
-    <flow id="f_18" begin="0.00" departLane="random" color="255,20,147" route="r_11" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_18" begin="0.00" departLane="random" color="255,20,147" route="r_11" end="3600.00" probability="0.5"/>
     <flow id="f_19" begin="0.00" departLane="random" color="47,79,79" route="r_12" end="3600.00" vehsPerHour="1800"/>
-    <flow id="f_2" begin="0.00" departLane="random" route="r_0" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_2" begin="0.00" departLane="random" route="r_0" end="3600.00" probability="0.4000000000000000222"/>
     <flow id="f_20" begin="0.00" departLane="random" color="47,79,79" route="r_5" end="3600.00" vehsPerHour="1800"/>
-    <flow id="f_21" begin="0.00" departLane="random" color="47,79,79" route="r_13" end="3600.00" vehsPerHour="1800"/>
-    <flow id="f_22" begin="0.00" departLane="random" color="139,131,120" route="r_13" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_21" begin="0.00" departLane="random" color="47,79,79" route="r_13" end="3600.00" probability="0.10000000000000000555"/>
+    <flow id="f_22" begin="0.00" departLane="random" color="139,131,120" route="r_13" end="3600.00" probability="0.10000000000000000555"/>
     <flow id="f_23" begin="0.00" departLane="random" color="139,131,120" route="r_5" end="3600.00" vehsPerHour="1800"/>
-    <flow id="f_25" type="ttype_0" begin="0.00" departLane="free" color="white" route="micronus_2" end="3600.00" vehsPerHour="1800"/>
-    <flow id="f_3" begin="0.00" departLane="random" route="r_1" end="3600.00" vehsPerHour="1800"/>
-    <flow id="f_4" begin="0.00" departLane="random" route="r_1" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_3" begin="0.00" departLane="random" route="r_1" end="3600.00" probability="0.2999999999999999889"/>
+    <flow id="f_4" begin="0.00" departLane="free" route="r_1" end="3600.00" probability="0.2999999999999999889"/>
     <flow id="f_5" begin="0.00" departLane="random" color="0,128,0" route="r_3" end="3600.00" vehsPerHour="1800"/>
     <flow id="f_6" begin="0.00" route="r_4" end="3600.00" vehsPerHour="1800"/>
     <flow id="f_7" begin="0.00" departLane="random" route="r_2" end="3600.00" vehsPerHour="1800"/>
