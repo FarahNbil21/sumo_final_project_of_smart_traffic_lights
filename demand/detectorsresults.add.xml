@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-02-14 23:33:03 by Eclipse SUMO netedit Version 1.23.1
+<!-- generated on 2026-02-16 01:06:23 by Eclipse SUMO netedit Version 1.23.1
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- Detectors -->
     <inductionLoop id="e1_0" lane="25998029#3_1" pos="20.02" period="30.00" name="before elhoriya square" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
-    <inductionLoop id="e1_1" lane="25998029#3_0" pos="20.56" period="30.00" name="before elhoriya square" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_1" lane="25998029#3_0" pos="20.56" period="3600.00" name="before elhoriya square" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_10" lane="28269864#1_2" pos="199.55" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_11" lane="25998029#3_2" pos="19.45" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_12" lane="701279117#16_0" pos="3.55" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_13" lane="701279117#16_1" pos="3.23" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_14" lane="701279117#16_2" pos="3.34" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_17" lane="77565499#8_0" pos="54.00" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_2" lane="28269864#1_1" pos="199.41" period="3600.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_3" lane="28269864#1_0" pos="199.12" period="300.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_4" lane="686660081#3_1" pos="232.10" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_5" lane="686660081#3_0" pos="232.13" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_6" lane="702491675#17_1" pos="69.49" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_7" lane="702491675#17_0" pos="67.82" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_8" lane="702491675#17_2" pos="70.56" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <inductionLoop id="e1_9" lane="686660081#3_2" pos="232.16" period="3600.00" name="before elnasr square " file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_0" lane="77565499#8_0" pos="61.86" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_1" lane="25997853#0_1" pos="3.59" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_10" lane="25998029#3_2" pos="103.01" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_11" lane="25998029#3_2" pos="103.01" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_12" lane="25998029#3_1" pos="103.97" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_13" lane="25998029#3_0" pos="106.87" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_14" lane="25997853#2_2" pos="3.91" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_15" lane="25997853#2_1" pos="2.49" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_16" lane="25997853#2_0" pos="1.88" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_17" lane="701279116#14_1" pos="34.28" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_18" lane="701279116#14_0" pos="34.48" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_19" lane="50724181#10_0" pos="12.51" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_2" lane="25997853#0_0" pos="3.86" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_20" lane="50724181#10_1" pos="13.36" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_21" lane="686660081#10_0" pos="0.53" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_22" lane="686660081#10_1" pos="1.21" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_23" lane="686660081#10_2" pos="0.90" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_24" lane="701279117#0_0" pos="1.03" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_25" lane="701279117#0_1" pos="1.58" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_26" lane="701279118#2_0" pos="0.55" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_27" lane="28269864#1_2" pos="207.60" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_28" lane="28269864#1_1" pos="206.72" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_29" lane="28269864#1_0" pos="207.55" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_3" lane="25997853#0_2" pos="0.70" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_30" lane="702491675#17_0" pos="93.77" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_31" lane="702491675#17_1" pos="95.97" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_32" lane="702491675#17_2" pos="97.49" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_33" lane="686660081#3_0" pos="269.06" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_34" lane="686660081#3_1" pos="267.89" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_35" lane="686660081#3_2" pos="268.40" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_4" lane="25997853#7_0" pos="5.79" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_5" lane="25997853#7_1" pos="3.07" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_6" lane="25997853#7_2" pos="4.78" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_7" lane="701279117#16_0" pos="18.25" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_8" lane="701279117#16_1" pos="18.81" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
+    <laneAreaDetector id="e2_9" lane="701279117#16_2" pos="18.39" length="10.00" period="300.00" file="E:\sumo_final_project_v2\sumo_final_project_of_smart_traffic_lights\demand\results.xml"/>
 </additional>
