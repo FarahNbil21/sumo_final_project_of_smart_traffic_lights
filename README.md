@@ -2,10 +2,11 @@ In this simulation, we demonstrate the traffic congestion scenario using SUMO.
 The modeled intersection represents a real-world junction on El Nasr Street in Maadi, Cairo, an area known for frequent and persistent traffic congestion.
 The intersection currently operates under a fixed-time traffic light system.
 
-https://github.com/user-attachments/assets/f564f097-b912-420b-9c82-d076654e7eef          <img width="1430" height="583" alt="t55" src="https://github.com/user-attachments/assets/f2819ba9-2b06-4296-b3ce-febb7dccb122" />
+https://github.com/user-attachments/assets/f564f097-b912-420b-9c82-d076654e7eef    
 
 
 As shown in the video, vehicles accumulate unevenly across different lanes. Despite the variation in traffic density, the signal timing remains constant. This leads to unnecessary waiting time and increased congestion in high-density lanes.
+<img width="1430" height="583" alt="t55" src="https://github.com/user-attachments/assets/f2819ba9-2b06-4296-b3ce-febb7dccb122" />
 
 This simulation represents the baseline model of the current traffic condition. Our goal is to enhance this system by integrating an AI-based traffic control model. The model will dynamically adjust green light duration based on real-time traffic density.
 
